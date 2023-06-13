@@ -10,7 +10,7 @@ Custom labs, open-hack style challenges and other content will be added overtime
 
 <br>
 
-## Content
+# Content
 
 ### Visual Studio Code
 
@@ -18,26 +18,37 @@ Custom labs, open-hack style challenges and other content will be added overtime
 | -- | -- | -- |
 | Tooling with Visual Studio Code | Learn how to install and configuration of Visual Studio Code. Then walk through cloning a git repository using VSCode | [VSCode Overview](https://learn.microsoft.com/en-us/training/modules/introduction-to-visual-studio-code/) <br> [VsCode Setup](https://code.visualstudio.com/Docs/setup/setup-overview) <br>  [Git Install](https://github.com/git-guides/install-git) <br> [VsCode Extensions](https://code.visualstudio.com/learn/get-started/extensions) |
 
-### Bicep
+## Bicep
 
 > *Note:* If you're new to IaC follow the labs based on their order in the table.
 
+## Fundamentals
 | Lab | Overview | Link |
 | -- | -- | -- |
 | Introduction to Bicep Templates | Define Azure resources within a Bicep template. Improve the consistency and reliability of your deployments, reduce the manual effort required, and scale your deployments across environments. Your template will be flexible and reusable by using parameters, variables, expressions, and modules. | [Lab Part 1](https://learn.microsoft.com/en-us/training/modules/introduction-to-infrastructure-as-code-using-bicep/) <br> [Lab Part 2](https://learn.microsoft.com/en-us/training/modules/build-first-bicep-template/) |
 | Build Reusable Bicep Templates by using Parameters | Use Bicep parameters to provide information for your template during each deployment. Add decorators to make your parameters easy to understand and work with, and to protect secret data. Provide parameter values at the command line and by using parameter files. | [Lab](https://learn.microsoft.com/en-us/training/modules/build-reusable-bicep-templates-parameters/) |
 | Build flexible Bicep Templates by using Conditions and Loops | Deploy resources only when specific constraints are in place. Use loops to deploy multiple resources that have similar properties. | [Lab](https://learn.microsoft.com/en-us/training/modules/build-flexible-bicep-templates-conditions-loops/) |
 | Create composable Bicep files using modules | Design and build reusable modules to simplify your Bicep templates. Compose multiple modules into templates by using parameters and outputs. | [Lab](https://learn.microsoft.com/en-us/training/modules/create-composable-bicep-files-using-modules/) |
+
+## Intermediate
+
+| Lab | Overview | Link |
+| -- | -- | -- |
 | Deploy child and extension resources | Deploy a variety of Azure resources in your Bicep code. Define and use child and extension resources. Work with resources that you created outside a Bicep template or module. | [Lab](https://learn.microsoft.com/en-us/training/modules/child-extension-bicep-templates/) |
 | Structure Bicep for Collaboration | Build Bicep files that support collaborative development and follow best practices. Plan your parameters to make your templates easy to deploy. Use a consistent style, clear structure, and comments to make your Bicep code easy to understand, use, and modify. | [Lab](https://learn.microsoft.com/en-us/training/modules/structure-bicep-code-collaboration/) |
-| Migrate Azure Resources and ARM templates to Bicep | Export and convert your Azure resources to Bicep files, and migrate your JSON Azure Resource Manager templates (ARM templates) to Bicep. Refactor your Bicep files to follow best practices. Test your Bicep files and deploy them to production. | [Lab](https://learn.microsoft.com/en-us/training/modules/migrate-azure-resources-bicep/) |
+| Manage changes to your Bicep code by using Git | Track of changes to your Bicep code and view the history of the files you've changed. Use branches to develop multiple versions of your code at the same time. Publish your repository to support collaboration. | [Lab](https://learn.microsoft.com/en-us/training/modules/manage-changes-bicep-code-git/) |
+| Review Azure infrastructure changes by using Bicep and pull requests | Avoid unintended changes and poorly written Bicep code by using pull requests. Use branching strategies to protect your main branch from accidental changes. Understand what you should look for when you review Bicep code. | [Lab](https://learn.microsoft.com/en-us/training/modules/review-azure-infrastructure-changes-using-bicep-pull-requests/)
 | Preview Azure deployment changes by using what-if | Preview the effects of your deployments. Understand the types of changes detected by the what-if operation. Deploy your templates using incremental and complete mode.|  [Lab](https://learn.microsoft.com/en-us/training/modules/arm-template-whatif/)|
+| Migrate Azure Resources and ARM templates to Bicep | Export and convert your Azure resources to Bicep files, and migrate your JSON Azure Resource Manager templates (ARM templates) to Bicep. Refactor your Bicep files to follow best practices. Test your Bicep files and deploy them to production. | [Lab](https://learn.microsoft.com/en-us/training/modules/migrate-azure-resources-bicep/) |
+
+## Advanced
+| Lab | Overview | Link |
+| -- | -- | -- |
 | Deploy resources to subscriptions, management groups and tenants | Deploy Azure resources at the subscription, management group, and tenant scope. Understand how Azure resources are deployed at different scopes, why this is important, and how to create Bicep code to deploy them. Create a single set of Bicep files that you can deploy across multiple scopes in one operation. | [Lab](https://learn.microsoft.com/en-us/training/modules/deploy-resources-scopes-bicep/) |
 | Extend Bicep using deployment scripts | Add custom steps to your Bicep or JSON Azure Resource Manager templates (ARM templates). Integrate deployment scripts with your deployment by using parameters and outputs. | [Lab](https://learn.microsoft.com/en-us/training/modules/extend-resource-manager-template-deployment-scripts/) |
 | Shared Bicep modules by using a private registry | Reuse Bicep modules to reduce code duplication and increase the quality of your deployments. Create a private registry for your organization. Publish shared modules to the registry, and consume them in multiple deployments. | [Lab](https://learn.microsoft.com/en-us/training/modules/share-bicep-modules-using-private-registries/) |
 | Publish Libraries of reusable infrastructure as code using template specs | Reuse and share your ARM templates across your organization. Publish template specs that deploy resources pre-configured for your organization's requirements. Control access and safely update template specs by using versions. | [Lab](https://learn.microsoft.com/en-us/training/modules/arm-template-specs/) |
-| Manage changes to your Bicep code by using Git | Track of changes to your Bicep code and view the history of the files you've changed. Use branches to develop multiple versions of your code at the same time. Publish your repository to support collaboration. | [Lab](https://learn.microsoft.com/en-us/training/modules/manage-changes-bicep-code-git/) |
-| Review Azure infrastructure changes by using Bicep and pull requests | Avoid unintended changes and poorly written Bicep code by using pull requests. Use branching strategies to protect your main branch from accidental changes. Understand what you should look for when you review Bicep code. | [Lab](https://learn.microsoft.com/en-us/training/modules/review-azure-infrastructure-changes-using-bicep-pull-requests/)
+
 
 <br>
 
